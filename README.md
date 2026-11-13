@@ -20,7 +20,7 @@ The reported results show a near-balanced output-symbol distribution and greater
 
 ## Website Preview
 
-[Explore the Bee Cipher website]([https://raileytimple-dev.github.io/bee-cipher/)]
+[Explore the Bee Cipher website([https://raileytimple-dev.github.io/bee-cipher/)]
 
 ### Encryption Simulator
 
