@@ -22,7 +22,17 @@ The reported results show a near-balanced output-symbol distribution and greater
 
 [Explore the Bee Cipher website](https://bee-cipher-lab-k7m2.railey.chatgpt.site)
 
-<!-- Website screenshots will be embedded here when the image files are available. -->
+### Encryption Simulator
+
+Enter a message and secret key to generate ciphertext and inspect the output length, flip passes, and expansion ratio.
+
+![Bee Cipher encryption simulator showing the message input and generated ciphertext](docs/screenshots/simulator.jpg)
+
+### Interactive Huffman Tree
+
+Select an ASCII character to highlight its route through the four-branch tree and view its codeword.
+
+![Bee Cipher Huffman tree showing the highlighted path to the character H](docs/screenshots/huffman-tree.jpg)
 
 ## Features
 
