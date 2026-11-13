@@ -32,3 +32,7 @@ function renderCodebook(){if(!state)return;let q=$('code-filter').value;let entr
 const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));});},{rootMargin:'-10% 0px -60% 0px'});['lab','learn','tree-section','about'].forEach(id=>observer.observe($(id)));run();
 
 $('paper-example').onclick=async()=>{setMode('encrypt');$('message').value='Lebron';$('key').value='Cavaliers';count();document.getElementById('lab').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});await run(true);};
+
+let flightVisible=true;try{flightVisible=localStorage.getItem('bee-flight')!=='hidden';}catch{}
+function updateFlight(){ $('flying-bee').hidden=!flightVisible;$('flight-toggle').textContent=flightVisible?'Hide flying bee':'Show flying bee';$('flight-toggle').setAttribute('aria-pressed',String(flightVisible));}
+$('flight-toggle').onclick=()=>{flightVisible=!flightVisible;updateFlight();try{localStorage.setItem('bee-flight',flightVisible?'visible':'hidden');}catch{}};updateFlight();

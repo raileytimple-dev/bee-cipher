@@ -42,6 +42,7 @@ Select an ASCII character to highlight its route through the four-branch tree an
 - **ASCII codebook:** Browse the codes assigned to all 128 ASCII characters.
 - **Generation animation:** See a yellow waveform for one second while encrypting or decrypting.
 - **Bee sound:** Play a one-second bee recording during encryption and decryption, with a sound toggle.
+- **Flying bee:** A decorative bee flies around the page, with a hide/show control and reduced-motion support.
 - **Research summary:** Read the study’s comparison results, limitations, and proposed future work.
 
 ## How Bee Cipher Works
