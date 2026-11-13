@@ -1,4 +1,4 @@
-// Play the supplied bee recording locally during ciphertext generation.
+// Play the supplied bee recording locally during encryption and decryption.
 export function createBeeBuzz(host = globalThis) {
   let context, bufferPromise, active, enabled = true, playback = 0;
   try { enabled = host.localStorage.getItem('bee-sound') !== 'off'; } catch {}
@@ -21,7 +21,7 @@ export function createBeeBuzz(host = globalThis) {
           .then(data => context.decodeAudioData(data))
           .catch(() => { bufferPromise = null; return null; });
       }
-    } catch { /* Audio must never interrupt encryption. */ }
+    } catch { /* Audio must never interrupt the cipher. */ }
   }
   async function play() {
     if (!enabled || !context || !bufferPromise) return;

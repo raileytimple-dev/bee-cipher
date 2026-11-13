@@ -40,8 +40,8 @@ Select an ASCII character to highlight its route through the four-branch tree an
 - **Step-by-step walkthrough:** Follow key scheduling, codebook construction, encoding, interval derivation, and positional substitution passes.
 - **Interactive Huffman tree:** Select a character to trace its codeword from the root to its leaf.
 - **ASCII codebook:** Browse the codes assigned to all 128 ASCII characters.
-- **Generation animation:** See a yellow waveform for one second before ciphertext appears.
-- **Bee sound:** Play a one-second bee recording during generation, with a sound toggle.
+- **Generation animation:** See a yellow waveform for one second while encrypting or decrypting.
+- **Bee sound:** Play a one-second bee recording during encryption and decryption, with a sound toggle.
 - **Research summary:** Read the study’s comparison results, limitations, and proposed future work.
 
 ## How Bee Cipher Works
