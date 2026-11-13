@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Bee Cipher</title>
+  <rect width="64" height="64" rx="14" fill="#101110"/>
+  <path d="M32 5 55 18v28L32 59 9 46V18Z" fill="#f4d63b"/>
+  <ellipse cx="26" cy="23" rx="7" ry="9" transform="rotate(-30 26 23)" fill="#fff3a3"/>
+  <ellipse cx="39" cy="23" rx="7" ry="9" transform="rotate(30 39 23)" fill="#fff3a3"/>
+  <path d="m46 38 6 3-6 3Z" fill="#101110"/>
+  <rect x="21" y="30" width="28" height="20" rx="10" fill="#101110"/>
+  <path d="M31 31v18m9-17v16" fill="none" stroke="#f4d63b" stroke-width="5"/>
+  <circle cx="21" cy="38" r="9" fill="#101110"/>
+  <circle cx="18" cy="36" r="2" fill="#fff3a3"/>
+</svg>
